@@ -131,7 +131,7 @@ def enviar_email(loja, dia_indicador, arquivo_anexo, faturamento_dia, faturament
     # Configurar a mensagem do email
     msg = MIMEMultipart()
     msg['Subject'] = f"OnePage dia {dia_indicador.day}/{dia_indicador.month} - Loja {loja}"
-    msg['From'] = 'be7ferrao@gmail.com'  # Coloque seu email aqui
+    msg['From'] = 'email'  # Coloque seu email aqui
     msg['To'] = email_gerente
 
     # Adicionar o corpo do email
@@ -149,7 +149,7 @@ def enviar_email(loja, dia_indicador, arquivo_anexo, faturamento_dia, faturament
     # Configurações de segurança
     s = smtplib.SMTP('smtp.gmail.com', 587)
     s.starttls()
-    password = 'unrn okku guop cqsa'  # Coloque sua senha aqui
+    password = 'senhadeapp'  # Coloque sua senha aqui
     s.login(msg['From'], password)
 
     # Enviar o email
@@ -248,10 +248,10 @@ faturamento_lojas_dia = faturamento_lojas_dia.sort_values(by='Valor Final', asce
 
 # Caso esteja criada, salvar o arquivo
 nome_arquivo = f'{dia_indicador.month}_{dia_indicador.day}_Ranking Anual.xlsx'
-faturamento_lojas_ano.to_excel(rf'C:\Users\be-8f\PycharmProjects\Process-Automation-Project\Arquivos\Backup\{nome_arquivo}', index=False)
+faturamento_lojas_ano.to_excel(rf'Arquivos\Backup\{nome_arquivo}', index=False)
 
 nome_arquivo = f'{dia_indicador.month}_{dia_indicador.day}_Ranking Diario.xlsx'
-faturamento_lojas_dia.to_excel(rf'C:\Users\be-8f\PycharmProjects\Process-Automation-Project\Arquivos\Backup\{nome_arquivo}', index=False)
+faturamento_lojas_dia.to_excel(rf'Arquivos\Backup\{nome_arquivo}', index=False)
 
 def enviar_ranking(arquivo1, arquivo2, faturamento_lojas_dia, faturamento_lojas_ano):
     email_gerente = emails_df.loc[emails_df['Loja'] == 'Diretoria', 'E-mail'].values[0]
@@ -277,7 +277,7 @@ def enviar_ranking(arquivo1, arquivo2, faturamento_lojas_dia, faturamento_lojas_
     # Configurar a mensagem do email
     msg = MIMEMultipart()
     msg['Subject'] = f'Ranking Dia {dia_indicador.day}/{dia_indicador.month}'
-    msg['From'] = 'be7ferrao@gmail.com'  # Coloque seu email aqui
+    msg['From'] = 'email'  # Coloque seu email aqui
     msg['To'] = email_gerente
 
     # Adicionar o corpo do email
@@ -302,7 +302,7 @@ def enviar_ranking(arquivo1, arquivo2, faturamento_lojas_dia, faturamento_lojas_
     # Configurações de segurança
     s = smtplib.SMTP('smtp.gmail.com', 587)
     s.starttls()
-    password = 'unrn okku guop cqsa'  # Coloque sua senha aqui
+    password = 'senhaapp'  # Coloque sua senha aqui
     s.login(msg['From'], password)
 
     # Enviar o email
