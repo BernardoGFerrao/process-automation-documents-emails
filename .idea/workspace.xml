@@ -4,41 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f0632b51-66fd-4209-be6c-97acea494618" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Arquivos/Lojas.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tentativa.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Process Automation Project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Process Automation Project - Create document and send emails automatically.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arquivos/Emails.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Arquivos/Emails.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arquivos/Lojas.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Arquivos/Lojas.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backup/ Shopping Morumbi/12_26_ Shopping Morumbi.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backup/Bourbon Shopping SP/12_26_Bourbon Shopping SP.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backup/Center Shopping Uberlândia/12_26_Center Shopping Uberlândia.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backup/Iguatemi Campinas/12_26_Iguatemi Campinas.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backup/Iguatemi Esplanada/12_26_Iguatemi Esplanada.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backup/Norte Shopping/12_26_Norte Shopping.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backup/Novo Shopping Ribeirão Preto/12_26_Novo Shopping Ribeirão Preto.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backup/Palladium Shopping Curitiba/12_26_Palladium Shopping Curitiba.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backup/Parque Dom Pedro Shopping/12_26_Parque Dom Pedro Shopping.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backup/Passei das Águas Shopping/12_26_Passei das Águas Shopping.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backup/Ribeirão Shopping/12_26_Ribeirão Shopping.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backup/Rio Mar Recife/12_26_Rio Mar Recife.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backup/Rio Mar Shopping Fortaleza/12_26_Rio Mar Shopping Fortaleza.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backup/Salvador Shopping/12_26_Salvador Shopping.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backup/Shopping Barra/12_26_Shopping Barra.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backup/Shopping Center Interlagos/12_26_Shopping Center Interlagos.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backup/Shopping Center Leste Aricanduva/12_26_Shopping Center Leste Aricanduva.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backup/Shopping Eldorado/12_26_Shopping Eldorado.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backup/Shopping Ibirapuera/12_26_Shopping Ibirapuera.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backup/Shopping Iguatemi Fortaleza/12_26_Shopping Iguatemi Fortaleza.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backup/Shopping Midway Mall/12_26_Shopping Midway Mall.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backup/Shopping Recife/12_26_Shopping Recife.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backup/Shopping SP Market/12_26_Shopping SP Market.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backup/Shopping União de Osasco/12_26_Shopping União de Osasco.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backup/Shopping Vila Velha/12_26_Shopping Vila Velha.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-    </list>
+    <list default="true" id="f0632b51-66fd-4209-be6c-97acea494618" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,22 +29,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.lira.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/be-8f/PycharmProjects/Process-Automation-Project/Arquivos&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.lira.executor": "Run",
+    "Python.main.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/be-8f/PycharmProjects/process-automation-documents-emails",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\be-8f\PycharmProjects\Process-Automation-Project\Arquivos" />
@@ -111,6 +77,7 @@
       <workItem from="1715231409076" duration="3091000" />
       <workItem from="1715397138813" duration="5673000" />
       <workItem from="1715453405259" duration="18416000" />
+      <workItem from="1715478132813" duration="244000" />
     </task>
     <servers />
   </component>
